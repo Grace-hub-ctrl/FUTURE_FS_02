@@ -47,7 +47,23 @@ Built with a "technical-premium" aesthetic, the interface supports system-aware 
 ├── server.ts           # Express API Gateway & SQLite Integration
 ├── init.sql           # Database Schema Definition
 └── README.md           # Documentation
-```
+``picture
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-36-09" src="https://github.com/user-attachments/assets/2407bcf4-bcdf-4386-ba99-fa2b41f5cfc7" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-40-36" src="https://github.com/user-attachments/assets/6062e80a-b217-47f4-90b8-4ee84297a5b1" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-40-49" src="https://github.com/user-attachments/assets/03f3d495-03fb-4be5-97aa-d8c288cfc82e" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-41-02" src="https://github.com/user-attachments/assets/10d0a8ca-1c7e-4496-92c6-6659cf59d5f4" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-41-16" src="https://github.com/user-attachments/assets/8a2fec0e-0073-411d-bf06-ddcbee06d377" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-41-27" src="https://github.com/user-attachments/assets/d559cbc6-d12e-4fd3-945a-9910e8db636c" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-41-36" src="https://github.com/user-attachments/assets/a549d387-4fef-40b3-8610-fd9490106539" />
+<img width="1915" height="830" alt="Screenshot from 2026-05-10 16-52-48" src="https://github.com/user-attachments/assets/89bb03ac-980d-4af3-8d35-d0c6a8094b2b" />
+
+
+
+
+
+
+
+
 
 ---
 
