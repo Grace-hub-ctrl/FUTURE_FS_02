@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-zinc-50 text-zinc-900 font-sans antialiased transition-colors duration-300;
+  }
+  
+  .dark body {
+    @apply bg-[#09090B] text-zinc-200;
+  }
+}
+
+.heat-dot {
+  @apply w-2 h-2 rounded-full;
+}
+
+.heat-hot { @apply bg-amber-500 shadow-[0_0_8px_rgba(245,158,11,0.5)]; }
+.heat-warm { @apply bg-zinc-400 dark:bg-zinc-600; }
+.heat-cold { @apply bg-zinc-200 dark:bg-zinc-800; }
+.heat-converted { @apply bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]; }
+
+/* Subtle grid structure */
+.grid-structure {
+  background-image: linear-gradient(to right, #e5e7eb 1px, transparent 1px),
+    linear-gradient(to bottom, #e5e7eb 1px, transparent 1px);
+  background-size: 60px 60px;
+}
+
+.dark .grid-structure {
+  background-image: linear-gradient(to right, #27272a 1px, transparent 1px),
+    linear-gradient(to bottom, #27272a 1px, transparent 1px);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
